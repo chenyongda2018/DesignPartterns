@@ -4,8 +4,8 @@ import flybehaviors.FlyBehavior;
 import quackbehaviors.QuackBehavior;
 
 public abstract class Duck {
-    private FlyBehavior mFlyBehavior;
-    private QuackBehavior mQuackBehavior;
+    protected FlyBehavior mFlyBehavior;
+    protected QuackBehavior mQuackBehavior;
 
     public void fly() {
         mFlyBehavior.fly();
@@ -14,6 +14,8 @@ public abstract class Duck {
     public void quack() {
         mQuackBehavior.quack();
     }
+
+    public abstract void display();
 
     public void setmFlyBehavior(FlyBehavior mFlyBehavior) {
         this.mFlyBehavior = mFlyBehavior;
