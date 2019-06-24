@@ -3,7 +3,9 @@ package Decorator;
 import Componment.Person;
 
 /**
- * 包装实现类，定义了具体的附加功能
+ * 最基本的包装Componment(Person)的包装类，持有Person引用
+ *
+ * 附加给Componment(Person)穿便宜衣服的功能
  */
 public class CheapClothes extends PersonClothes{
 

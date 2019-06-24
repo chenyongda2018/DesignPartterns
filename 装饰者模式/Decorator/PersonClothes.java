@@ -3,8 +3,8 @@ package Decorator;
 import Componment.Person;
 
 /**
- * 最基本的包装Componment的包装类，持有Person引用
- * 便宜衣服
+ * 最基本的包装Componment(Person)的包装类，持有Person引用
+ *
  */
 public abstract class PersonClothes implements Person {
 
