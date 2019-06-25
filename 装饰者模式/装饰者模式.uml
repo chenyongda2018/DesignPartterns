@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Componment.Boy</OriginalElement>
+  <nodes>
+    <node x="27.616071428571416" y="258.0">Decorator.FashionClothes</node>
+    <node x="292.9583333333333" y="258.0">Decorator.CheapClothes</node>
+    <node x="170.79166666666663" y="0.0">Componment.Person</node>
+    <node x="179.5" y="111.0">Decorator.PersonClothes</node>
+    <node x="10.5" y="134.0">Componment.Boy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Decorator.FashionClothes" target="Decorator.PersonClothes">
+      <point x="75.33333333333331" y="-59.0" />
+      <point x="215.94940476190473" y="233.0" />
+      <point x="261.625" y="233.0" />
+      <point x="-27.375" y="48.5" />
+    </edge>
+    <edge source="Decorator.FashionClothes" target="Componment.Person">
+      <point x="-75.33333333333331" y="-59.0" />
+      <point x="65.2827380952381" y="233.0" />
+      <point x="0.0" y="233.0" />
+      <point x="0.0" y="81.0" />
+      <point x="183.20833333333331" y="81.0" />
+      <point x="-62.083333333333314" y="25.5" />
+    </edge>
+    <edge source="Decorator.CheapClothes" target="Decorator.PersonClothes">
+      <point x="-70.66666666666669" y="-59.0" />
+      <point x="328.29166666666663" y="233.0" />
+      <point x="316.375" y="233.0" />
+      <point x="27.375" y="48.5" />
+    </edge>
+    <edge source="Decorator.PersonClothes" target="Componment.Person">
+      <point x="-73.0" y="-48.5" />
+      <point x="216.0" y="91.0" />
+      <point x="232.87499999999994" y="91.0" />
+      <point x="-12.416666666666686" y="25.5" />
+    </edge>
+    <edge source="Decorator.CheapClothes" target="Componment.Person">
+      <point x="70.66666666666669" y="-59.0" />
+      <point x="469.625" y="233.0" />
+      <point x="420.38392857142856" y="233.0" />
+      <point x="420.38392857142856" y="71.0" />
+      <point x="307.37499999999994" y="71.0" />
+      <point x="62.083333333333314" y="25.5" />
+    </edge>
+    <edge source="Componment.Boy" target="Componment.Person">
+      <point x="0.0" y="-25.5" />
+      <point x="85.0" y="91.0" />
+      <point x="208.04166666666663" y="91.0" />
+      <point x="-37.25" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="252.0" y="183.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

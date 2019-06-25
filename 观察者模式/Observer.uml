@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>observer.Observer</OriginalElement>
+  <nodes>
+    <node x="0.0" y="145.0">Subject.WeatherData</node>
+    <node x="341.0" y="101.0">observer.CurrentConditions</node>
+    <node x="365.5" y="0.0">observer.Observer</node>
+    <node x="7.0" y="0.0">Subject.Subject</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Subject.WeatherData" target="Subject.Subject">
+      <point x="0.0" y="-180.5" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="observer.CurrentConditions" target="observer.Observer">
+      <point x="0.0" y="-169.5" />
+      <point x="0.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="339.5" y="253.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
