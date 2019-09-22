@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/装饰者模式" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/享元模式" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/适配器模式" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/职责链模式" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
